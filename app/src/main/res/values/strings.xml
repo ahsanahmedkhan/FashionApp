@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Fashion App</string>
+    <string name="welcome_msg">"Welcome to the online catalogue.
+        Hope you are enjoying"</string>
+    <string name="sample_text">
+        There are many variation of passages of lorem Ipsum available,
+        but the majority have suffered alteration in some form, by injection humour, or randomised words which don`t look even slightly
+        believable. If you are going to use a passage of lorem Ipsum.
+    </string>
+    <string name="success_text">
+        You already asked us to send your catalogue. Please waiting for our catalogue to your place.
+    </string>
+</resources>
