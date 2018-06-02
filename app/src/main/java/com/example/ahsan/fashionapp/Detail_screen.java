@@ -6,25 +6,24 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+public class Detail_screen extends AppCompatActivity {
 
-public class Home extends AppCompatActivity {
+    Button button2;
 
-    Button btn_one;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.home_screen);
+        setContentView(R.layout.detail_screen);
 
-        btn_one = (Button)findViewById(R.id.btn_one);
-        btn_one.setOnClickListener(new View.OnClickListener() {
+        button2 = (Button)findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Home.this, Detail_screen.class);
+                Intent intent = new Intent(Detail_screen.this, Success.class);
                 startActivity(intent);
             }
         });
-
 
 
     }

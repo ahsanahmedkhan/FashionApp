@@ -22,6 +22,13 @@
         <activity android:name=".Home">
 
         </activity>
+        <activity android:name=".Detail_screen">
+
+        </activity>
+        <activity android:name=".Success">
+
+        </activity>
+
     </application>
 
 </manifest>
